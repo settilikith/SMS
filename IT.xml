@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="integrationtesting.Student_module"/>
+      <class name="integrationtesting.Subject_module"/>
+      <class name="integrationtesting.Grade_module"/>
+      <class name="integrationtesting.Profile"/>
+      <class name="integrationtesting.Exam_module"/>
+      <class name="integrationtesting.Teacher_module"/>
+      <class name="integrationtesting.Teacher_Attendance"/>
+      <class name="integrationtesting.Student_Attendance"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
